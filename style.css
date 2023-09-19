@@ -1,9 +1,11 @@
 header{
     font-family: Arial, Helvetica, sans-serif;
 }
+.menu{
+    float: right;
+}
 ul{
     display: block;
-    float: right;
 }
 li{
     list-style-type: none;
