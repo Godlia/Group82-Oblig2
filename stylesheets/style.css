@@ -2,6 +2,13 @@
     font-family: 'Kanit', sans-serif;
     font-weight:bolder;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Kanit', sans-serif;
+    font-weight:bolder;
+    margin-top: 0.75vh;
+    margin-bottom: 0.75vh;
+}
+
 span {
     top: 5px;
 }
@@ -27,6 +34,11 @@ body {
     max-width: 35vw;
 }
 
+.subheader {
+    border-bottom: 3px solid black;
+    width: fit-content;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -42,6 +54,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: black;
+    font-size: 2vw;
 }
 
 .navbar a:hover {
