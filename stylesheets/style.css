@@ -1,14 +1,19 @@
-header{
+header {
     font-family: Arial, Helvetica, sans-serif;
 }
-.menu{
+
+.menu {
     float: left;
 }
-ul{
+
+ul {
     display: block;
     background-color: gray;
 }
-li{
+
+li {
     list-style-type: none;
     padding: 2vw;
 }
+
+/* https://prod.liveshare.vsengsaas.visualstudio.com/join?7F2087FDB13A495104718A143E5C99FD599D */
