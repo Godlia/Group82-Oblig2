@@ -62,22 +62,11 @@ body {
     border-bottom: #32292F 2px solid;
 }
 
-/* https://prod.liveshare.vsengsaas.visualstudio.com/join?7F2087FDB13A495104718A143E5C99FD599D 
-
-header {
-    font-family: Arial, Helvetica, sans-serif;
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 
-.menu {
-    float: left;
+.flex * {
+    
 }
-
-ul {
-    display: block;
-    background-color: gray;
-}
-
-li {
-    list-style-type: none;
-    padding: 2vw;
-}*/
