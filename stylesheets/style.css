@@ -19,6 +19,8 @@ body {
     justify-content: center;
 }
 
+
+
 .site-wrapper {
     width: 95vw;
     background-color: #FFFCF9;
@@ -62,11 +64,50 @@ body {
     border-bottom: #32292F 2px solid;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
+
+
+
+/*Side 2*/
+
+
+.bodyPage2 {
+    background-color: white;
 }
 
-.flex * {
-    
+.bodyPage2 h1,h2,h3,h4,h5,h6 {
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    font-weight: 700;
+    margin-top: 0.75vh;
+    margin-bottom: 0.75vh;
+}
+
+.bodyPage2 li {
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    font-weight: 100;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: #999999 solid 1px;
+    border-left: #ffc107 8px solid;
+    padding-bottom: 1vh;
+}
+
+.Tittel {
+    margin-left: 1vw;
+}
+
+.subTitle {
+    margin-left: 3vw;
+}
+
+.listHeader {
+    margin-left: 3.5vw;
+}
+
+ul {
+    margin-left: 5vw;
 }

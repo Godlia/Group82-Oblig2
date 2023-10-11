@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Outcomes</title>¨
+    <title>Learning Outcomes</title>
     <link rel="stylesheet" href="../stylesheets/style.css">
 </head>
 
-<body>
-    <div class="site-wrapper">
-        <h1>Learning Outcomes</h1>
-        <div class="flex">
+<body class="bodyPage2">
+    <div class="flex">
+            <h1 class="Tittel">Learning Outcomes</h1>
+            <hr>
             <div>
-                <h2>Knowledge</h2>
-                <h3>Students:</h3>
+                <h2 class="subTitle">Knowledge</h2>
+                <h3 class="listHeader">Students:</h3>
                 <ul>
                     <li>knows the central role that the web and the internet have in modern data processing</li>
                     <li>is familiar with relevant programming tools and repositories with version control</li>
@@ -22,10 +22,10 @@
                         work</li>
                 </ul>
             </div>
-
+            <hr>
             <div>
-                <h2>Skills</h2>
-                <h3>Students:</h3>
+                <h2 class="subTitle">Skills</h2>
+                <h3 class="listHeader">Students:</h3>
                 <ul>
                     <li>can create user-friendly and universally designed solutions in line with legislation</li>
                     <li>build webpages with the key technologies for web (HTML, CSS)</li>
@@ -35,8 +35,8 @@
             </div>
 
             <div>
-                <h2>General Competence</h2>
-                <h3>Students:</h3>
+                <h2 class="subTitle">General Competence</h2> 
+                <h3 class="listHeader">Students:</h3>
                 <ul>
                     <li>can communicate the result of a development work</li>
                     <li>can collaborate in groups</li>
@@ -44,7 +44,13 @@
             </div>
 
         </div>
-    </div>
 </body>
+
+<script>
+    let content = document.querySelector(".flex");
+    function toggle() {
+        content.classList.toggle("active");
+    }
+</script>
 
 </html>
