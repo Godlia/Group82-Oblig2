@@ -111,3 +111,13 @@ body {
 ul {
     margin-left: 5vw;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+footer ul li {
+    display: inline;
+    border-left: #999999 solid 2px;
+    margin-left: 1vw;
+}
