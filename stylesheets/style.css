@@ -67,11 +67,13 @@ body {
 
 
 /*Side 2*/
-
+:root {
+    --ikonet: url("https://student.oslomet.no/o/oslomet-theme/images/minus-icon.svg");
+  }
 
 
 .ikonTing::before {
-    background-image: url("https://student.oslomet.no/o/oslomet-theme/images/plus-icon.svg");
+    background-image: var(--ikonet);
     background-color: #ffd500;
     background-repeat: no-repeat;
     background-position: center center;
@@ -87,25 +89,28 @@ body {
 
 .bodyPage2 {
     background-color: white;
+    margin-left: 7vw;
+    margin-right: 15vw;
 }
 
 .bodyPage2 p {
-    padding-bottom: 5vh;
-    margin-left: 1vw;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    margin-left: calc(35px + 4vw);
     line-height: 1.5;
     font-size: 1.125rem;
 }
 
 .bodyPage2 h1,h2,h3,h4,h5,h6 {
-    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
     margin-top: 0.75vh;
     margin-bottom: 0.75vh;
 }
 
 .bodyPage2 li {
-    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
-    font-weight: 100;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
 
 }
 
@@ -120,23 +125,30 @@ body {
 .Tittel {
     margin-left: 1vw;
     font-size: 20px;
+    margin-bottom: 5vh;
 }
 
 .subTitle {
     margin-left: calc(35px + 4vw);
+    margin-bottom: 4vh;
+    font-size: 20px;
 }
 
 .listHeader {
     margin-left: calc(35px + 4vw);
-    
+    font-weight: 400;
+    margin-bottom: 4vh;
+    font-size: 20px;    
 }
 
 ul {
-    margin-left: calc(15px + 5vw);
+    margin-left: calc(20px + 5vw);
+    font-size: 18px;
 }
 
 footer ul li {
     display: inline;
     border-left: #999999 solid 2px;
     margin-left: 1vw;
+
 }
